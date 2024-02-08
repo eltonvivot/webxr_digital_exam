@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Integração com Gêmeo Digital</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link type="text/css" rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+	<div id="info">
+		<a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> xr - dragging
+	</div>
+
+	<script type="importmap">
+		{
+			"imports": {
+				"three": "./dep/three/build/three.module.js",
+				"three/addons/": "./dep/three/examples/jsm/",
+				"three/fonts": "./dep/three/examples/fonts/"
+			}
+		}
+		</script>
+	<script type="module" src="index.mjs"></script>
+</body>
+
+</html>
